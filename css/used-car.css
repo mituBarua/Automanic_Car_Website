@@ -1,0 +1,616 @@
+/*body {
+  background-color: white !important;
+  font-family: 'Open Sans', serif;
+  overflow-x: hidden;
+}*/
+.row{
+  margin-right: 0!important;
+  margin-left: 0!important;
+}
+.container{
+  padding-right: 0!important;
+  padding-left: 0!important;
+}
+.left-card .card{
+  padding: 10px;
+}
+.cardbg {
+  background: #fbfbfb;
+  box-sizing: content-box;
+}
+/**-----------------url path--------------*/
+.p-l-80 {
+  padding-left: 80px;
+}
+
+/**-----------------sale-car --------------*/
+.sale-car-section {
+  background-color: white;
+  height: auto;
+}
+.sale-car {
+  padding-top: 20px;
+}
+.bg-white-header {
+  background-color: white;
+}
+.sale-car .sale-car-form-card {
+  border: 1px solid #d3d3d3 !important;
+  border-radius: 6px;
+  width: 100%;
+}
+.card-header h6 {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #3d3d3d;
+}
+.search-reset {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-reset i {
+  color: #2e3877;
+}
+.search-reset a {
+  color: #2e3877 !important;
+  font-size: 14px;
+}
+.search-saved a{
+  color: #2e3877 !important;
+  font-size: 14px;
+}
+.search-saved i {
+  color: #2e3877;
+}
+.sale-car-row input {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #3d3d3d;
+}
+.sale-car-row input:focus {
+  box-shadow: none !important;
+  outline: #d3d3d3 !important;
+  border-color: #d3d3d3 !important;
+}
+.sale-car-row select {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #2e3877;
+}
+.sale-car-row select:focus {
+  box-shadow: none !important;
+  outline: #d3d3d3 !important;
+  border-color: #d3d3d3 !important;
+}
+.options-label-change label {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #2e3877;
+  border-bottom: 2px solid #d3d3d3;
+  padding-bottom: 17px;
+  width: 100%;
+}
+.price-accordion button {
+  /* width: 100%; */
+  border: 1px solid #dadada;
+  font-size: 14px;
+  color: #2e3877;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 8px;
+}
+/* .accordion-button{
+  width: 100%!important;
+} */
+.year-accordion  button {
+  /* width: 100%; */
+  border: 1px solid #dadada;
+  font-size: 13px;
+  color: #2e3877;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 8px;
+}
+.car-deal-switch{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  margin-left: 12px;
+}
+.car-deal-switch a{
+  color: #2e3877;
+  font-size: 14px;
+}
+.year-accordion .form-switch label{
+    font-size: 12px;
+  color: #2e3877;
+}
+.year-accordion button:focus {
+  outline: none;
+}
+.price-accordion button:focus {
+  outline: none;
+}
+.year-accordion button:focus {
+  outline: none;
+}
+.price-accordion .accordion-body {
+  /* border: 1px solid gainsboro; */
+  margin-bottom: 10px;
+}
+.price-accordion .btn-group {
+  width: 87%;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.year-accordion .btn-group {
+  width: 87%;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.price-accordion .btn-group button {
+  width: 40%;
+}
+.year-accordion .btn-group button {
+  width: 40%;
+}
+.year-accordion .btn-year{
+  background-color: #2e3877;
+  color: white;
+  font-size: 12px;
+}
+.price-accordion .btn-cash {
+  background-color: #2e3877;
+  color: white;
+  font-size: 12px;
+}
+.price-accordion .btn-cash:hover {
+  color: white;
+}
+.year-accordion  .btn-year:hover {
+  color: white;
+}
+
+.year-accordion  .btn-year:focus {
+  box-shadow: none;
+  outline: none;
+}
+.price-accordion .btn-cash:focus {
+  box-shadow: none;
+  outline: none;
+}
+/* .price-accordion .accordion-header {
+  width: 232px;
+  margin-left: 2px;
+}
+.year-accordion .accordion-header {
+  width: 232px;
+  margin-left: 6px;
+} */
+.change-input-check {
+  background-color: #f2f2f2;
+  padding: 10px;
+  width: 100%;
+}
+.change-input-check .form-check-label {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #1d1d1d;
+}
+.search-btn {
+  padding: 10px;
+  width: 100%;
+  background-color: #2e3877;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+}
+.search-btn:focus {
+  outline: none;
+  border: none;
+}
+.pricing-text p {
+  font-size: 8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  margin-left: 10px;
+}
+.another-sale-car-row-gap {
+  margin-top: 10px;
+}
+.before-buy h6 {
+  color: #2e3877;
+  font-size: 13px;
+}
+.before-buy {
+  border-bottom: none !important;
+  padding-left: 0;
+}
+.sale-car-form-card .card-text {
+  padding-bottom: 10px;
+  font-size: 11px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #000000;
+}
+
+.begin-check-btn {
+  width: 100%;
+  border-radius: 20px;
+  padding: 9px;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #000000;
+  border: 1px solid #d3d3d3;
+}
+.begin-check-btn:focus {
+  outline: none;
+}
+.addKey label{
+  font-size: 14px;
+  color: #2e3877;
+}
+.keywords{
+  display: flex;
+  align-items: center;
+}
+.keywords span{
+  background-color: #2e3877;
+  color: white;
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+/*-----------------------------------right-col------------------*/
+.p-l-r-35 {
+  padding: 10px 25px 0px 10px;
+}
+.p-t-r-l {
+  padding: 10px 15px 0px 20px;
+}
+.arrow-and-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #d3d3d3;
+}
+.arrow .arrow-left {
+  font-size: 27px;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: #d3d3d3;
+  border: 1px solid #d3d3d3;
+}
+.arrow .arrow-right {
+  font-size: 27px;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: #2e3877;
+  border: 1px solid #d3d3d3;
+}
+.left p {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #3d3d3d;
+}
+
+.left {
+  display: flex;
+  justify-content: space-evenly;
+  width: 29%;
+}
+.sort-by {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 26%;
+}
+.sort-by-text {
+  width: 45%;
+}
+.sort-by-text p {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #3d3d3d;
+}
+.search-input input {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #3d3d3d;
+}
+
+.search-input input:focus {
+  outline: none;
+  border: 1px solid #d3d3d3;
+  box-shadow: none;
+}
+.left-view-img1 {
+  height: 100%;
+}
+.left-view-img1 img {
+  /* background-image: url(../images/used-car/used-car1.png); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*  height: 100%;*/
+  width: 100%;
+}
+.advertiment-details a {
+  text-decoration: none;
+}
+.advert-price h1 {
+  font-size: 37px;
+  font-family: "Poppins", sans-serif;
+  color: #3d3d3d;
+  font-weight: bold;
+}
+.advert-price h2 {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  color: #3d3d3d;
+  font-weight: 600;
+}
+.advert-price p {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  color: #3d3d3d;
+}
+.admin-fee p {
+  font-size: 9px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #2e3877;
+  border-bottom: 1px solid #d8d8d8;
+}
+.car-sales-ltd h4 {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  font-weight: 400;
+}
+.star i {
+  font-size: 11px;
+  color: #ffba00;
+}
+.star span {
+  font-size: 9px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  margin-left: 10px;
+}
+.car-sales-allign {
+  display: flex;
+}
+.location i {
+  color: #727272;
+  font-size: 13px;
+  margin-left: 10px;
+}
+.location span {
+  font-size: 9px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+}
+.car-view {
+  display: flex;
+}
+
+.car-view a {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #6ce2cb;
+  /* text-decoration: underline; */
+  margin-right: 13px;
+  margin-top: -3px;
+}
+.car-view-a{
+  text-decoration: underline!important;
+}
+.car-sales-ltd {
+  display: flex;
+  justify-content: space-between;
+}
+.south-west-btn button {
+  font-size: 10px;
+  padding: 2px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+.advertiment-details {
+  background-color: #f8f8f8;
+  padding: 25px;
+  border-radius: 4px;
+}
+.car-detail-row {
+  margin-top: 25px;
+}
+.bottom-pagination {
+  margin-top: 20px;
+}
+
+.bottom-pagination nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-item:first-child .page-link a {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.bottom-pagination .page-link {
+  color: #2e3877;
+  border: none;
+  margin-left: 10px;
+  height: 30px;
+  text-align: center;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: none !important;
+  border-bottom-left-radius: none !important;
+}
+.bottom-pagination .page-link:focus {
+  box-shadow: none;
+  outline: none;
+}
+.bottom-pagination .active {
+  background-color: #f8f8f8;
+  border-radius: 20px;
+  border-top-left-radius: none !important;
+  border-bottom-left-radius: none !important;
+  height: 30px;
+  width: 30px;
+}
+.bottom-pagination .page-link:hover {
+  background-color: #f8f8f8;
+  border-radius: 20px;
+  height: 30px;
+  text-align: center;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.latest-brand-car-deals h5 {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #3d3d3d;
+}
+.latest-brand-car-deals p {
+  font-size: 11px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+}
+.latest-brand-car-deals h3 {
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #ff0000;
+}
+.latest-brand-car-deals a {
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #6ce2cb;
+  text-transform: uppercase;
+}
+.latest-brand h2 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  color: #3d3d3d;
+  margin-left: 21px;
+}
+.latest-brand-col .col-md-4 {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 0px;
+}
+
+/*------------------------Responsive------------------------------------*/
+
+@media (max-width: 991px) {
+  .p-l-80 {
+    padding-left: 40px;
+  }
+  .arrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left p {
+    margin-top: 12px;
+    margin-left: 6px;
+    font-size: 11px;
+  }
+  .sort-by {
+    width: 31%;
+  }
+  .sort-by-text p {
+    font-size: 12px;
+  }
+  .advertiment-details {
+    /*  padding: 12px;*/
+  }
+  .advert-price h1 {
+    font-size: 30px;
+  }
+  .advert-price h2 {
+    font-size: 20px;
+  }
+  .advert-price p {
+    font-size: 11px;
+  }
+  .car-sales-ltd h4 {
+    font-size: 10px;
+  }
+  .south-west-btn button {
+    font-size: 8px;
+  }
+  .car-view a {
+    font-size: 10px;
+  }
+  .car-sales-allign {
+    display: block;
+  }
+  .location i {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 575px) {
+  .p-l-80 {
+    padding-left: 15px;
+  }
+  .sale-car {
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .left {
+    width: 30%;
+  }
+  .sort-by {
+    display: block;
+  }
+  .search-input {
+    padding-bottom: 10px;
+  }
+  .latest-brand-col .col-md-4 {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+  }
+}

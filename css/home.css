@@ -1,0 +1,595 @@
+body {
+  background-color: #f7f7f5 !important;
+  overflow-x: hidden;
+}
+
+/* ------------------NAVIGATION BAR---------------- */
+.p-l-60 {
+  padding-left: 60px !important;
+}
+#brand-text-size {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+.nav-item {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around !important;
+  width: 100% !important;
+  padding: 18px;
+}
+ .navbar-nav .active {
+  border-bottom: 3px solid #2e3877;
+ 
+ }
+.footer-nav .navbar-nav {
+  flex-direction: row !important;
+}
+.dropbtn {
+  padding: 6px 9px 9px 9px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  border: none;
+  background-color: #f8f9fa;
+  color: #363636;
+}
+.dropbtn:focus {
+  outline: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 432px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content:hover {
+  text-decoration: none;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: #363636;
+  border-bottom: 1px solid #e8e8e8;
+  /* max-width: 54%; */
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  text-decoration: none;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.nav-item .nav-link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #363636 !important;
+}
+.custom-size-user {
+  font-size: 35px;
+  color: #e8e8e8;
+}
+
+ul li a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+
+  transition: 0.5s;
+}
+ul li a::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  top: 100%;
+  left: 0;
+  background: #2e3877;
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+ul li a:hover {
+  color: #95a5a6;
+}
+ul li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.span-tools {
+  font-size: 6px;
+  position: absolute;
+  top: -7px;
+  text-transform: uppercase;
+}
+/* -------------------Navigation menu End------------ */
+/*---------------------hero-section start-------------------------*/
+.hero-section {
+  background-color: #f7f7f5;
+  height: calc(100vh - (2em + 13px));
+}
+.big-hero {
+  background-image: url(../image/hero-section.png);
+  max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: -webkit-fill-available;
+  padding-bottom: 80px;
+  height: calc(100vh - (2em + 70px));
+}
+
+/* .hero-title {
+  position: absolute;
+  top: 37%;
+  left: 7%;
+} */
+.hero-title h1 {
+  font-size: 33px;
+  color: #2e3877;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  line-height: 46px;
+  /* padding: 59px; */
+  padding: 126px 0 20px 112px;
+}
+.begin-here {
+  background-color: white;
+  position: absolute;
+  width: 31%;
+  height: 57%;
+  left: 8%;
+  top: 61%;
+  box-shadow: 0px 3px 24px #00000014;
+  border-radius: 6px;
+}
+.begin-here-title h2 {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #2e3877;
+  padding: 25px 0 0 27px;
+}
+.car-details {
+  margin-top: 26px;
+}
+.car-details .row {
+  margin-top: 26px;
+}
+.each-detail a {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #3d3d3d;
+  text-decoration: none;
+  padding: 0 0 0 38px;
+}
+/* .each-detail .dropbtn {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #3d3d3d;
+  text-decoration: none;
+  padding: 0 0 0 38px;
+  background-color: white;
+}
+.each-detail .dropdown-content{
+  min-width: 213px;
+ position: absolute;
+  margin-top: 10px;
+  display: none;
+
+} */
+.each-detail a:hover {
+  text-decoration: none;
+  color: #3d3d3d;
+}
+.country-angle {
+  position: absolute;
+  left: 78%;
+  top: 14%;
+  font-size: 16px;
+  color: #2e3877;
+  font-weight: 600;
+}
+.find-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 38px;
+}
+.find-btn button {
+  width: 87%;
+  padding: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2e3877;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+}
+.find-btn button:focus {
+  outline: none;
+  border: none;
+}
+/*---------hero section end-----------------------*/
+/*----------------buy from home--------------------------*/
+.buy-from-home-section {
+  height: auto;
+}
+.buy-from-home {
+  background-image: url(../image/buy-home.png);
+  background-color: white;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  max-width: 100%;
+  height: -webkit-fill-available;
+}
+.buy-from-home img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+}
+.buy-from-home-title {
+  padding: 140px;
+}
+
+
+.buy-from-home-title h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2e3877;
+}
+.buy-from-home-title h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #737373;
+  line-height: 26px;
+  margin-top: 14px;
+}
+/*-----------------buy from home end-----------------------*/
+/*-----------------Latest car start-----------------------*/
+.latest-car-section {
+  height: auto;
+}
+.latest-car {
+  margin: 80px 60px 10px 60px;
+  background-color: white;
+  height: auto;
+  border-radius: 6px;
+  
+}
+.latest-car-title h2 {
+  margin: 35px 0 35px 50px;
+  color: #2e3877;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  padding: 40px 0 0;
+}
+.latest-car-card {
+  padding: 15px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.card {
+  border: none !important;
+  border-radius: none !important;
+  width: auto;
+  padding: 20px;
+}
+/* .card:hover{
+  background-color: #f7f7f5;
+  transition: 0.4s;
+} */
+
+.car-category {
+  font-size: 10px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #3d3d3d;
+  margin-top: 12px;
+}
+.card-body {
+  padding: 14px 0px !important;
+}
+.card-title {
+  font-size: 20px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  color: #3d3d3d;
+  line-height: 35px;
+}
+.card-text {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #737373;
+}
+/*-----------------latest car end-----------------------*/
+/*-----------------advert start-----------------------*/
+.advert-section {
+  background-color: #2e3877;
+  color: white;
+  margin: 40px 60px 10px 60px;
+  border-radius: 6px;
+}
+.advert-title h2 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 50px 0 0 50px;
+}
+.advert-title h3 {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  padding: 10px 0 0 50px;
+}
+.advert-title h4 {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  padding: 20px 0 0 50px;
+}
+.advert-row {
+  margin: 40px 0 19px 52px !important;
+}
+.registration {
+  margin-right: 50px;
+}
+.manage-existing-advert {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 20px;
+}
+.form-control:focus {
+  border-color: transparent !important;
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+/*--------------------------advert end-------------------------------------*/
+/*-----------------buying essentials start-----------------------*/
+.buying-essentials-section {
+  height: auto;
+}
+.buying-essentials {
+  margin: 80px 60px 10px 60px;
+  background-color: white;
+  height: auto;
+  border-radius: 6px;
+}
+.buying-essentials-title h2 {
+  margin: 35px 0 35px 50px;
+  color: #2e3877;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 40px 0 0;
+}
+.buying-essentials-card {
+  /* padding: 30px; */
+}
+.card {
+  border: none !important;
+  border-radius: none !important;
+  /* margin-left: 22px!important; */
+}
+.car-category {
+  font-size: 10px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #3d3d3d;
+  margin-top: 12px;
+}
+.card-body {
+  padding: 14px 0px !important;
+}
+.card-title {
+  font-size: 20px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  color: #3d3d3d;
+  line-height: 35px;
+}
+.card-text {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #737373;
+}
+.start-check {
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #2e3877;
+}
+.start-check:hover {
+  text-decoration: none;
+  color: #2e3877;
+}
+/*-----------------buying essentials end-----------------------*/
+
+/*-------------------------latest automanic----------------------*/
+.latest-automanic-section {
+  margin: 80px 60px 100px 60px;
+  background-color: white;
+  height: auto;
+  border-radius: 6px;
+}
+.latest-automanic-title h2 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #2e3877;
+  text-align: center;
+  padding: 30px;
+}
+.latest-automanic-img img {
+  width: 100%;
+  padding: 0 30px 30px 30px;
+}
+.essentials-car-card {
+  padding: 10px;
+}
+/*----------------------subscribe-newsletter--------------*/
+.subscribe-newsletter-section {
+  background-color: #2e3877;
+  color: white;
+  padding: 30px 30px 30px 80px;
+}
+.subscribe-newsletter h2 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.subscribe-newsletter button {
+  width: 13%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #000000;
+}
+.subscribe-newsletter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/*----------------------subscribe-newsletter end--------------*/
+/*----------------------footer start--------------*/
+.footer {
+  padding: 20px 0 0 40px;
+}
+.footer-nav {
+  padding: 10px 23px 0 36px;
+}
+.footer img {
+  width: 3%;
+}
+.footer a {
+  text-decoration: none;
+  color: #3d3d3d;
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+}
+.footer a:hover {
+  text-decoration: none;
+  color: #3d3d3d;
+}
+.footer-description p {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  color: #9f9f9f;
+  font-weight: 400;
+  padding: 10px 23px 0 48px;
+}
+.social-link {
+  display: flex;
+  padding: 10px 0px 0 45px;
+}
+.facebook-link {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  box-shadow: -1px 1px 5px 1px #d0d0d0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+.email {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  box-shadow: -1px 1px 5px 1px #d0d0d0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+.twitter {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  box-shadow: -1px 1px 5px 1px #d0d0d0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+.instagram {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  box-shadow: -1px 1px 5px 1px #d0d0d0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+.store {
+  display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+}
+
+.store a img {
+  width: 79%;
+}
+.copywright p {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 44px 44px 100px 44px;
+}

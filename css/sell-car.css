@@ -1,0 +1,465 @@
+
+.top-car-section{
+ position: relative;
+}
+.top-car-img img {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.online-adds-begin h3 {
+   color: #7E7E7E;
+   font-size: 20px;  
+   font-weight: bold;
+   font-family: "Poppins", sans-serif;
+}
+.online-adds-begin p {
+    color: #7E7E7E;
+    font-size: 16px;  
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    margin-top: 10px;
+}
+.online-adds-begin span{
+    color: #7E7E7E;
+    font-size: 13px;  
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    margin-top: 10px;
+}
+.check-1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+.check-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.check-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.check-list p{
+    font-size: 14px;  
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    margin-left: 10px;
+    align-content: flex-start;
+}
+.check-list{
+    line-height: 2px;
+    margin-top: 31px;
+
+}
+.check-p p{
+    margin-top: 10px;
+}
+.licence-plate input {
+    background-color: #EBEBEB;
+    color: #2E3877;
+    font-size: 16px;  
+    font-weight:500;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    padding: 10px 10px;
+    margin-right: 8px;
+    width: 45%; 
+    height: 40px;
+
+}
+.licence-plate button {
+    background-color: #EBEBEB;
+    color: #2E3877;
+    font-size: 16px;  
+    font-weight:500;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    padding: 10px 10px;
+    margin-right: 8px;
+    
+
+}
+
+.licence-plate select {
+    background-color: #EBEBEB;
+    color: #2E3877;
+    font-size: 16px;  
+    font-weight:500;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    padding: 10px 10px;
+    height: 40px;
+}
+.get-started-btn{
+    font-size: 14px;  
+    font-weight:500;
+    font-family: "Poppins", sans-serif;
+    border: none;
+     color: #FFFFFF!important;
+    background-color: #2E3877;
+    border: none;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.get-started-btn:focus{
+    outline: none;
+}
+.online-adds-begin{
+    padding: 18px;
+    background-color: white;
+    border-radius: 6px;
+    margin-left: 20px;
+    box-shadow: 0px 3px 6px #00000029;
+    height: 100%;
+}
+.online-reg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    top: 58px;
+
+}  
+.sell-it-yourself-earn-section{
+    background-color: white;
+    padding-top: 180px;
+    padding-bottom: 70px;
+
+}
+.sell-it-yourself-earn{
+    text-align: center;
+}
+.sell-it-yourself-earn h2{
+    font-size: 30px;  
+    font-weight:500;
+    font-family: "Poppins", sans-serif;
+    color: #2E3877;
+    letter-spacing: 1px;
+}
+.sell-it-yourself-earn p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #2E3877;
+    line-height: 24px;
+}
+.why-sell-on-automanic-section{
+    background-color: white;
+}
+.why-sell-on-automanic{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.why-sell-on-automanic h2{
+    font-size: 30px;  
+    font-weight:500;
+    font-family: "Poppins", sans-serif;
+    color: #2E3877;
+}
+.free-vehicle{
+    padding: 35px;
+}
+.free-vehicle i {
+  color: #EB6D44;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.free-vehicle h4 {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0 0 0 / 61%);
+    margin-bottom: 30px;
+
+}
+.free-vehicle p{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0 0 0 / 61%);
+    
+}
+.the-largest-audience{
+    padding: 35px;
+}
+.the-largest-audience i {
+  color: #EB6D44;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.the-largest-audience h4 {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0 0 0 / 61%);
+    margin-bottom: 30px;
+
+}
+.the-largest-audience p{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0 0 0 / 61%);
+    
+}
+.more-value{
+    padding: 35px;
+}
+.more-value i {
+  color: #EB6D44;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.more-value h4 {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0 0 0 / 61%);
+    margin-bottom: 30px;
+
+}
+.more-value p{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0 0 0 / 61%);
+    
+}
+
+
+.creating-your-add-section{
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 70px;
+
+}
+.creating-your-add {
+    text-align: center;
+}
+.creating-your-add h2{
+    font-size: 30px;  
+    font-weight:500;
+    font-family: "Poppins", sans-serif;
+    color: #2E3877;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+}
+
+.identify-vehicle{
+    padding: 35px;
+}
+.identify-vehicle i {
+  color: #EB6D44;
+  font-size: 35px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.identify-vehicle h4 {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0 0 0 / 61%);
+    margin-bottom: 30px;
+
+}
+.identify-vehicle p{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0 0 0 / 61%);
+    
+}
+.set-price{
+    padding: 35px;
+}
+.set-price i {
+  color: #EB6D44;
+  font-size: 35px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.set-price h4 {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0 0 0 / 61%);
+    margin-bottom: 30px;
+
+}
+.set-price p{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0 0 0 / 61%);
+    
+}
+.show-and-tell{
+    padding: 35px;
+}
+.show-and-tell i {
+  color: #EB6D44;
+  font-size: 35px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.show-and-tell h4 {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0 0 0 / 61%);
+    margin-bottom: 30px;
+
+}
+.show-and-tell p{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0 0 0 / 61%);
+    
+}
+
+.we-are-here-to-help-section{
+    background-color: white;
+    padding-bottom: 70px;
+
+}
+.we-are-here-to-help-title h2{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #2E3877;
+    text-align: center;
+}
+.we-are-here-to-help p{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0 0 0 / 61%);
+    margin-top:30px;
+    padding: 5px 50px;
+}
+.list-item{
+    margin-top: 50px;
+    padding: 5px 50px;
+}
+.list-item-1{
+    display: flex;
+    align-items: flex-start;
+}
+.list-item-2{
+    display: flex;
+    align-items: flex-start;
+}
+
+.list-item-3{
+    display: flex;
+    align-items: flex-start;
+}
+.list-item-4{
+    display: flex;
+    align-items: flex-start;
+}
+.list-item i{
+    color: #EB6D44;
+    font-size: 24px;
+}
+.list-item p{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0 0 0 / 61%);
+     padding: 0px 0px 11px 43px;
+
+}
+@media (max-width: 1199px) {
+    .licence-plate select{
+        padding: 7px 3px;
+        font-size: 14px;
+    }
+    .licence-plate button{
+        padding: 7px 3px;
+        font-size: 14px;
+    }
+    .online-adds-begin {
+        padding: 13px;
+    }
+    .online-adds-begin p {
+       font-size: 13px;
+    }
+    .check-p p {
+        margin-top: 16px;
+    }
+    .sell-it-yourself-earn-section {
+      
+        padding-top: 206px;
+    }    
+
+}
+@media (max-width: 991px) {
+    .online-adds-begin h3 {
+      
+        font-size: 15px;
+    }
+    .online-adds-begin p {
+       
+        font-size: 11px;
+    }
+    .licence-plate{
+        text-align: center;
+    }
+    .licence-plate button {
+        padding: 7px 9px;
+        margin-right: 0;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .check-list {
+        line-height: 15px;
+        margin-top: 20px;
+
+    }
+    .sell-it-yourself-earn-section {
+        padding-top: 301px;
+    }
+}
+@media (max-width: 767px) {
+    .online-adds-begin{
+        margin-top: 22px;
+    }
+    .sell-it-yourself-earn-section {
+        padding-top: 520px;
+    }
+    .check-p {
+        margin-top: 30px;
+    }
+    .get-started-btn {
+        margin: 10px 0;
+    }
+}
+@media (max-width: 575px) { 
+    .online-reg{
+        top: 18px;
+    }
+    .sell-it-yourself-earn-section {
+        padding-top: 657px;
+    }
+}

@@ -1,0 +1,693 @@
+/*-------------------car details-------------*/
+
+.back-to-result {
+  background-color: white;
+  height: auto;
+}
+.back {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.car-advertisement-details {
+  background-color: white;
+}
+.back p {
+  margin-top: 17px;
+  margin-left: 10px;
+}
+.p-l-65 {
+  padding-left: 65px;
+}
+.card-details-add img {
+  max-width: 100%;
+}
+.left-car-details {
+  display: flex;
+  align-items: center;
+}
+.previous .left-arr {
+  padding: 7px;
+  font-size: 28px;
+  border: 1px solid #e7e7e7;
+  margin: 20px 20px 0px 20px;
+  color: #d3d3d3;
+}
+.previous span {
+  font-size: 11px;
+  color: #d3d3d3;
+}
+.car-img-add-upload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.upload-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.upload-img img {
+  max-width: 90%;
+}
+.car-img-up-left-arr .left-arr {
+  padding: 45px 10px 45px 10px;
+  margin: 11px;
+  background-color: #e7e7e7;
+}
+
+.car-img-up-right-arr .right-arr {
+  padding: 45px 10px 45px 10px;
+  margin: 5px;
+  background-color: #e7e7e7;
+}
+.m-l-10 {
+  margin-left: 10px !important;
+}
+.overview-text h3 {
+  color: #3d3d3d;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.car-feature-row {
+  margin: 25px 0 25px -22px;
+}
+.manual {
+  display: flex;
+}
+.manual i {
+  font-size: 15px;
+}
+.manual h4 {
+  margin: 0 20px;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  line-height: 20px;
+}
+.description-text {
+  border-bottom: 1px solid #e7e7e7;
+}
+.description-text h3 {
+  color: #3d3d3d;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 20px 0;
+}
+.description-text p {
+  color: #3d3d3d;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.specification-text h3 {
+  color: #3d3d3d;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 20px 0;
+}
+.specification-text {
+  border-bottom: 1px solid #e7e7e7;
+}
+.running-costs-text h3 {
+  color: #3d3d3d;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 20px 0;
+}
+.running-costs-text {
+  border-bottom: 1px solid #e7e7e7;
+}
+.insurance-text h3 {
+  color: #3d3d3d;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 20px 0;
+}
+.insurance-text {
+  border-bottom: 1px solid #e7e7e7;
+}
+.seat-text h3 {
+  color: #3d3d3d;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 20px 0;
+}
+/* .seat-text{
+    border-bottom: 1px solid #e7e7e7;
+} */
+.part-exchange-text h3 {
+  color: #3d3d3d;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 20px 0;
+}
+.part-exchange-text {
+  border-bottom: 1px solid #e7e7e7;
+  margin-top: 46px;
+}
+.part-exchange-text p {
+  color: #3d3d3d;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.buy-car-safely-text h3 {
+  color: #3d3d3d;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 20px 0;
+}
+.buy-car-safely-text p {
+  color: #3d3d3d;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.buy-car-safely-text h4 {
+  color: #3d3d3d;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.buy-car-safely-text {
+  border-bottom: 1px solid #e7e7e7;
+}
+.about-this-seller-text h3 {
+  color: #3d3d3d;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 20px 0;
+}
+.about-this-seller-text {
+  border-bottom: 1px solid #e7e7e7;
+}
+.smc-aldershot-text h3 {
+  color: #2e3877;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 20px 0;
+}
+/* .smc-aldershot-text{
+    border-bottom: 1px solid #e7e7e7;
+} */
+.experts {
+  display: flex;
+  align-items: center;
+}
+.starr {
+  font-size: 9px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #ffba00;
+  margin: 2px 10px;
+}
+
+.starr .star-color {
+  color: #e7e7e7;
+}
+.experts h5 {
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.experts span {
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.other-experts span {
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.seat-text a {
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #2e3877 !important;
+}
+.other-experts h5 {
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.other-experts {
+  display: flex;
+}
+.expert-other-expert {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.smc-star {
+  display: flex;
+  align-items: center;
+  margin-left: -5px;
+}
+.right-side {
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.next i {
+  padding: 7px;
+  font-size: 28px;
+  border: 1px solid #e7e7e7;
+  /* margin: -2px 20px 0px 0px; */
+  color: #d3d3d3;
+}
+.min-hatch-text h3 {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #3d3d3d;
+}
+.min-hatch-text h4 {
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #3d3d3d;
+}
+.min-hatch-price {
+  margin-top: 20px;
+}
+.min-hatch-price h2 {
+  font-size: 37px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #3d3d3d;
+}
+.min-hatch-price p {
+  font-size: 9px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #3d3d3d;
+  margin-bottom: 0;
+}
+.admin-fee {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+.admin-together {
+  width: 100%;
+}
+.admin-fee i {
+  font-size: 10px;
+  color: #2e3877;
+}
+.admin-fair-img {
+  width: 200%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e7e7e7;
+}
+.fair-price-img img {
+  max-width: 70%;
+}
+.seller-btn {
+  margin-top: 20px;
+}
+.seller-btn button {
+  padding: 10px;
+  width: 90%;
+  background-color: #2e3877;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  border: none;
+}
+.seller-btn button:focus {
+  outline: none;
+}
+.brand-new {
+  margin-top: 20px;
+  margin-bottom: 29px;
+}
+.brand-new h4 {
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.smc-aldershot-details {
+  padding: 30px;
+  background-color: #f7f7f7;
+  width: 85%;
+}
+.south-west-btn {
+  width: 27%;
+}
+.aldershot-title {
+  margin-bottom: 20px;
+}
+.smc-aldershot-title h2 {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #030303;
+}
+.smc-aldershot-title {
+  margin: 20px 0;
+}
+.starr span {
+  color: #000000;
+  font-size: 9px;
+  font-family: "Poppins", sans-serif;
+}
+.aldershot-title h3 {
+  color: #000000;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  margin: 10px 5px;
+}
+.live-video {
+  display: flex;
+  align-items: center;
+  width: 74%;
+  justify-content: space-between;
+}
+.click-nd-collect {
+  display: flex;
+  align-items: center;
+  width: 71%;
+  justify-content: space-between;
+}
+.live-video h3 {
+  color: #000000;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-top: 6px;
+}
+.click-nd-collect h3 {
+  color: #000000;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-top: 6px;
+}
+.smc-aldershot-details a {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #2e3877;
+  margin-left: 57px;
+}
+.live-video i {
+  font-size: 26px;
+}
+.click-nd-collect i {
+  font-size: 29px;
+}
+.learn-more p {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.map-direction {
+  display: flex;
+  margin-top: 20px;
+}
+.mobile {
+  display: flex;
+  align-items: center;
+}
+.mobile p {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 0;
+}
+.mobile i {
+  color: #2e3877;
+  font-size: 15px;
+  margin-right: 10px;
+}
+.map {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.map p {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 0;
+}
+.map i {
+  color: #2e3877;
+  font-size: 15px;
+  margin-right: 10px;
+}
+.direction {
+  display: flex;
+  align-items: center;
+}
+.direction p {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 0;
+}
+.direction i {
+  color: #2e3877;
+  font-size: 15px;
+  margin-right: 10px;
+}
+.buy-this-car-title {
+  margin: 20px 0;
+  /* border-bottom: 2px solid #2E3877; */
+  width: 85%;
+}
+.buy-this-car-title h3 {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #030303;
+}
+.total-price-title {
+  border-bottom: 2px solid #e7e7e7;
+}
+.total-price {
+  width: 85%;
+  background-color: #f7f7f7;
+  padding: 30px;
+  border-top: 2px solid #2e3877;
+}
+.total-to-pay {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.total-price-title h3 {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #030303;
+  text-align: center;
+}
+.part-exchange-vehicle {
+  margin: 10px 0 20px 0;
+}
+.part-exchange-vehicle h4 {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #000000;
+}
+.total-to-pay-text h3 {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #000000;
+}
+.amount h4 {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #000000;
+}
+.enquire-btn {
+  text-align: center;
+}
+.enquire-btn button {
+  width: 50%;
+  padding: 10px;
+  background-color: #2e3877;
+  color: white;
+  border: none;
+}
+.enquire-btn button:focus {
+  outline: none;
+}
+.question-section {
+  background-color: white;
+  padding-bottom: 50px;
+}
+.question-answered h3 {
+  color: #2e3877;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.question-accordion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.question-accordion .accordion {
+  width: 50%;
+}
+.question-accordion .card {
+/*  padding: 2px;*/
+}
+.question-accordion .card-header {
+  background-color: transparent;
+}
+.question-accordion button {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #000000;
+}
+.question-accordion button:hover {
+  text-decoration: none;
+  color: #000000;
+}
+.car-details-pagination {
+  background-color: white;
+}
+.car-details-pagination .bottom-pagination {
+  margin-top: 0px;
+}
+.latest-brand-new-car-deals {
+  background-color: white;
+  padding: 45px;
+}
+.latest-brand-new-car-deals .card {
+  padding: 0;
+}
+.latest-brand-new-car-deals h2 {
+  font-size: 32px;
+  margin: 0px 15px 0px 0px;
+}
+.latest-brand-new-car-deals .latest-brand-col {
+  margin: 30px 0px 0px 0px;
+}
+/*-----------------------------------Responsive-----------------------*/
+@media (max-width: 991px) {
+  .right-side {
+    align-items: center;
+  }
+  .manual h4 {
+    font-size: 10px;
+  }
+  .expert-other-expert {
+    display: block;
+  }
+  .enquire-btn {
+    margin-top: 20px;
+  }
+  .enquire-btn button {
+    width: 100%;
+  }
+  .live-video {
+    width: 100%;
+  }
+  .live-video h3 {
+    margin-left: 15px;
+    font-size: 15px;
+  }
+  .live-video i {
+    font-size: 22px;
+  }
+  .click-nd-collect h3 {
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 15px;
+  }
+  .click-nd-collect {
+    width: 100%;
+  }
+}
+@media (max-width: 575px) {
+  .right-side {
+    padding: 20px;
+  }
+  .seller-btn {
+    padding: 20px;
+  }
+  .seller-btn button {
+    width: 100%;
+  }
+  .brand-new {
+    padding: 20px;
+    text-align: center;
+  }
+  .smc-aldershot-details {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .live-video {
+    width: 74%;
+  }
+  .click-nd-collect {
+    width: 71%;
+  }
+  .buy-this-car-title {
+    text-align: center;
+    width: 100%;
+  }
+  .total-price {
+    width: 100%;
+  }
+  .question-answered h3 {
+    padding-top: 45px;
+  }
+
+  .min-hatch-text h3 {
+    font-size: 20px;
+  }
+  .manual h4 {
+    font-size: 14px;
+  }
+  .car-feature-row {
+    margin: 0;
+  }
+  .overview-text h3 {
+    margin-left: 11px;
+  }
+  .admin-fee {
+    width: 35%;
+  }
+  .question-accordion .accordion {
+    width: 65%;
+  }
+  .question-accordion button {
+    font-size: 17px;
+  }
+}
